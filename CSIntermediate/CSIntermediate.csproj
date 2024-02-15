@@ -43,7 +43,22 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Program.cs" />
+    <Compile Include="Classes\Calculator.cs" />
+    <Compile Include="Classes\Class1.cs" />
+    <Compile Include="Classes\Class2.cs" />
+    <Compile Include="Classes\Class3.cs" />
+    <Compile Include="Classes\Class4.cs" />
+    <Compile Include="Classes\Class5.cs" />
+    <Compile Include="Classes\Class6.cs" />
+    <Compile Include="Classes\Customer.cs" />
+    <Compile Include="Classes\Exercises\Exercises.cs" />
+    <Compile Include="Classes\Exercises\Post.cs" />
+    <Compile Include="Classes\Exercises\Stopwatch.cs" />
+    <Compile Include="Classes\HttpCookie.cs" />
+    <Compile Include="Classes\Order.cs" />
+    <Compile Include="Classes\Person.cs" />
+    <Compile Include="Classes\Point.cs" />
+    <Compile Include="Classes\Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

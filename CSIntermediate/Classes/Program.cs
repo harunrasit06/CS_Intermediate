@@ -27,7 +27,7 @@ namespace CSIntermediate
     }
     internal class Program
     {
-        static void Main(string[] args)
+        static void Main1(string[] args)
         {
             var person = Person.Parse("John");
             //var p = person.Parse("John");
