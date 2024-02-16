@@ -43,6 +43,13 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Association\Composition.cs" />
+    <Compile Include="Association\DbMigrator.cs" />
+    <Compile Include="Association\Inheritance.cs" />
+    <Compile Include="Association\Installer.cs" />
+    <Compile Include="Association\Logger.cs" />
+    <Compile Include="Association\PresentationObject.cs" />
+    <Compile Include="Association\Text.cs" />
     <Compile Include="Classes\Calculator.cs" />
     <Compile Include="Classes\Class1.cs" />
     <Compile Include="Classes\Class2.cs" />
@@ -59,10 +66,23 @@
     <Compile Include="Classes\Person.cs" />
     <Compile Include="Classes\Point.cs" />
     <Compile Include="Classes\Program.cs" />
+    <Compile Include="InheritanceOOP\Car.cs" />
+    <Compile Include="InheritanceOOP\Class1.cs" />
+    <Compile Include="InheritanceOOP\Class2.cs" />
+    <Compile Include="InheritanceOOP\Class3.cs" />
+    <Compile Include="InheritanceOOP\Shape.cs" />
+    <Compile Include="InheritanceOOP\Text.cs" />
+    <Compile Include="InheritanceOOP\Vehicle.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Amazon\Amazon.csproj">
+      <Project>{27b1f7dc-778e-4857-992f-352a074d448e}</Project>
+      <Name>Amazon</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

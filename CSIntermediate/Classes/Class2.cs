@@ -15,7 +15,7 @@ namespace CSIntermediate
 
             } 
             catch (Exception e) {
-                Console.WriteLine("Conversion faild!");
+                Console.WriteLine("Conversion faild!" + e);
             }
             int number;
             var result = int.TryParse("abc", out number);

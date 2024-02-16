@@ -22,7 +22,7 @@ outside, you should not be able to misuse a class because you shouldn’t be abl
 implementation detail.*/
     internal partial class Exercises
     {
-        static void Main(string[] args)
+        static void Main1(string[] args)
         {
             // for exercise 1
             //var stopWatch = new Stopwatch();
