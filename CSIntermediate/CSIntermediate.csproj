@@ -70,9 +70,24 @@
     <Compile Include="InheritanceOOP\Class1.cs" />
     <Compile Include="InheritanceOOP\Class2.cs" />
     <Compile Include="InheritanceOOP\Class3.cs" />
+    <Compile Include="InheritanceOOP\Class4.cs" />
+    <Compile Include="InheritanceOOP\Exercise.cs" />
     <Compile Include="InheritanceOOP\Shape.cs" />
+    <Compile Include="InheritanceOOP\Stack.cs" />
     <Compile Include="InheritanceOOP\Text.cs" />
     <Compile Include="InheritanceOOP\Vehicle.cs" />
+    <Compile Include="Interfaces\Class1.cs" />
+    <Compile Include="Polymorphism\Canvas.cs" />
+    <Compile Include="Polymorphism\Circle.cs" />
+    <Compile Include="Polymorphism\Class1.cs" />
+    <Compile Include="Polymorphism\DbConnection.cs" />
+    <Compile Include="Polymorphism\Exercise.cs" />
+    <Compile Include="Polymorphism\OracleConnection.cs" />
+    <Compile Include="Polymorphism\Position.cs" />
+    <Compile Include="Polymorphism\Rectangle.cs" />
+    <Compile Include="Polymorphism\Shape.cs" />
+    <Compile Include="Polymorphism\SqlConnection.cs" />
+    <Compile Include="Polymorphism\Triangle.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -84,5 +99,6 @@
       <Name>Amazon</Name>
     </ProjectReference>
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -10,7 +10,7 @@ namespace CSIntermediate.InheritanceOOP
 {
     internal class Class3
     {
-        static void Main(string[] args)
+        static void Main3(string[] args)
         {
             //Text text = new Text();
             //Shape shape = text;
