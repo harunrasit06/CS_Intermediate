@@ -7,7 +7,9 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSIntermediate", "CSInterme
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Amazon", "Amazon\Amazon.csproj", "{27B1F7DC-778E-4857-992F-352A074D448E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfApp1", "WpfApp1\WpfApp1.csproj", "{7F9E216C-FF99-47F3-A9CB-94B7F092AE3E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WpfApp1", "WpfApp1\WpfApp1.csproj", "{7F9E216C-FF99-47F3-A9CB-94B7F092AE3E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTestProject1", "UnitTestProject1\UnitTestProject1.csproj", "{7DC3DB32-8EEC-4354-BAEA-619AD105886E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +29,10 @@ Global
 		{7F9E216C-FF99-47F3-A9CB-94B7F092AE3E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7F9E216C-FF99-47F3-A9CB-94B7F092AE3E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7F9E216C-FF99-47F3-A9CB-94B7F092AE3E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7DC3DB32-8EEC-4354-BAEA-619AD105886E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7DC3DB32-8EEC-4354-BAEA-619AD105886E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7DC3DB32-8EEC-4354-BAEA-619AD105886E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7DC3DB32-8EEC-4354-BAEA-619AD105886E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

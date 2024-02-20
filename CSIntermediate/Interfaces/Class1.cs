@@ -6,10 +6,15 @@ using System.Threading.Tasks;
 
 namespace CSIntermediate.Interfaces
 {
+
+
     internal class Class1
     {
-        static void Main(string[] args)
+        static void Main1(string[] args)
         {
+            var orderProcessor = new OrderProcessor(new ShippingCalculator());
+            var order = new Order {DatePlaced = DateTime.Now, TotalPrice = 100f };
+            orderProcessor.Process(order);
 
         }
     }
